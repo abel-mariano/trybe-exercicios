@@ -42,3 +42,42 @@ nav a:hover{
     background-color: #1eb720;
     border-radius: 4px;
 }
+
+/*Conteúdo*/
+#geral{
+    display: flex;
+    justify-content: center;
+}
+.container_geral{
+    display: flex;
+    justify-content: center;
+    width: 990px;
+}
+#geral section{
+    flex: 1;
+    flex-direction: column;
+}
+.title h1{
+    text-align: center;
+    font-size: 40px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+}
+.resume p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.lists{
+    display: flex;
+    margin-top: 30px;
+}
+ul{
+    margin-top: 10px;
+    font-size: 20px;
+}
