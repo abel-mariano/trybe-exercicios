@@ -1,0 +1,82 @@
+# Exercícios e Respostas.
+
+1- Crie um novo diretório chamado unix_tests_search e entre nele.
+2- Na pasta unix_tests_search, baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl
+
+mkdir unix_tests_search
+cd unix_tests_search
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+3 - Mostre todo o conteúdo do arquivo countries.txt na tela.
+
+Solução:
+  cat countries.txt
+
+4 - Mostre o conteúdo de countries.txt, página por página, até encontrar a Zambia.
+
+Solução:
+  less countries.txt
+
+5 - Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
+
+Solução:
+  less countries.txt
+  
+  - dentro do arquivo, digite barra `/` e em seguida a palavra Zambia
+  - pressione "Enter" para sair
+
+6 - Busque por Brazil no countries.txt.
+
+Solução:
+  grep Brazil countries.txt
+
+7 - Busque novamente por brazil, mas agora utilizando o lower case.
+
+Solução:
+  grep -i brazil countries.txt
+
+8 - Crie um novo arquivo chamado phrases.txt e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.
+
+Solução:
+ touch phrases.txt
+
+9 - Busque pelas frases que não contenham a palavra fox.
+
+Solução:
+  grep -v fox phrases.txt
+
+10 - Conte o número de palavras do arquivo phrases.txt.
+
+Solução:
+  wc -w phrases.txt
+
+11 - Conte o número de linhas do arquivo phrases.txt.
+
+Solução:
+  wc -l phrases.txt
+
+12 - Crie os arquivos empty.tbt e empty.pdf.
+
+Solução:
+  touch empty.tbt
+  touch empty.pdf
+
+13 - Liste todos os arquivos do diretório unix_tests_search.
+
+Solução:
+  ls -l
+
+14 - Liste todos os arquivos que terminem com txt.
+
+Solução:
+  ls -l *txt
+
+15 - Liste todos os arquivos que terminem com tbt ou txt.
+
+Solução:
+  ls -l *t?t
+
+16 - Acesse o manual do comando ls.
+
+Solução:
+  man ls
