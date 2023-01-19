@@ -8,9 +8,9 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 1: [Unix, Shell e Git]
 - [x] 1.1 - Unix & Bash - Parte 1
-- [] 1.2 - Unix & Bash - Parte 2
-- [] 1.3 - Git - O que é e para que serve
-- [] 1.4 - Git & Github - Entendendo os comandos
+- [x] 1.2 - Unix & Bash - Parte 2
+- [x] 1.3 - Git - O que é e para que serve
+- [x] 1.4 - Git & Github - Entendendo os comandos
 
 ##### Seção 2: [Introdução à HTML & CSS]
 - [] 2.1 - HTML & CSS - Estruturas de página
