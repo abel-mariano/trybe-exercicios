@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #F2F2F2;
+}
+/*Cabeçalho*/
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo, .menu{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+nav a{
+    display: block;
+    margin-right: 40px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #065220;
+}
+nav a:hover{
+    color: #FFFFFF;
+    background-color: #1eb720;
+    border-radius: 4px;
+}

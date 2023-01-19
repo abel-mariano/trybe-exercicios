@@ -14,7 +14,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 2: [Introdução à HTML & CSS]
 - [x] 2.1 - HTML & CSS - Estruturas de página
-- [] 2.2 - HTML & CSS - Primeiros passos em CSS
+- [x] 2.2 - HTML & CSS - Primeiros passos em CSS
 - [] 2.3 - HTML & CSS - Seletores e posicionamento
 - [] 2.4 - HTML & CSS - Semântico
 - [] 2.5 - Projeto
