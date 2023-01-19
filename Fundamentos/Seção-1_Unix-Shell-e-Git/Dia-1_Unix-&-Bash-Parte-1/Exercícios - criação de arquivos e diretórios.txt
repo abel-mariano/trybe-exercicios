@@ -1,0 +1,91 @@
+# Exercícios e Respostas.
+
+1 - Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu, crie um diretório chamado unix_tests e navegue até ele.
+
+Solução:
+  mkdir unix_tests
+  cd unix_tests
+
+2 - Crie um arquivo de texto com o nome trybe.txt.
+
+Solução:
+  touch trybe.txt
+
+3 - Crie uma cópia do arquivo trybe.txt com o nome trybe_backup.txt.
+
+Solução:
+  cp trybe.txt trybe_backup.txt
+
+4 - Renomeie o arquivo trybe.txt.
+
+Solução:
+  mv trybe.txt outro_nome.txt
+
+5 - Dentro de unix_tests, crie um novo diretório chamado backup.
+
+Solução:
+  mkdir backup
+
+6 - Mova o arquivo trybe_backup.txt para o diretório backup.
+
+Solução:
+  mv trybe_backup.txt backup
+
+7 - Dentro de unix_tests, crie um novo diretório chamado backup2.
+
+Solução:
+  mkdir backup2
+
+8 - Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+
+Solução:
+  mv backup/trybe_backup.txt backup2
+
+9 - Apague a pasta backup.
+
+Solução:
+  rmdir backup
+
+10 - Renomeie a pasta backup2 para backup.
+
+Solução:
+  mv backup2 backup
+
+11 - Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+
+Solução:
+  pwd
+  ls -l .
+
+12 - Apague o diretório backup.
+
+Solução:
+  rm -rd backup
+
+13 - Limpe o terminal.
+
+Solução:
+  clear
+
+14 - Para os próximos dois exercícios, crie, de forma manual, na parte gráfica do seu sistema operacional (através do mouse), um arquivo de texto com o conteúdo abaixo, chamado skills.txt:
+
+Internet
+Unix
+Bash
+HTML
+CSS
+JavaScript
+React
+SQL
+
+- Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+Solução:
+  head -n 5 skills.txt
+
+- Mostre na tela as 4 últimas skills do arquivo skills.txt.
+Solução:
+  tail -n 4 skills.txt
+
+- Apague todos os arquivos que terminem em .txt.
+Solução:
+  rm *.txt
