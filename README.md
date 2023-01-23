@@ -16,5 +16,13 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 2.1 - HTML & CSS - Estruturas de página
 - [x] 2.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 2.3 - HTML & CSS - Seletores e posicionamento
-- [] 2.4 - HTML & CSS - Semântico
-- [] 2.5 - Projeto
+- [x] 2.4 - HTML & CSS - Semântico
+- [x] 2.5 - Projeto
+
+##### Seção 3: [Introdução à JavaScript]
+- [x] 3.1 - JavaScript - Primeiros passos
+- [] 3.2 - JavaScript - Array e Loop for
+- [] 3.3 - JavaScript - Lógica de programação e algoritmos
+- [] 3.4 - JavaScript - Objetos e funções
+- [] 3.5 - JavaScript ES6 - let, const, arrow functions e template literals
+- [] 3.6 - Projeto - Playground functions
