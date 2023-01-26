@@ -22,7 +22,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 ##### Seção 3: [Introdução à JavaScript]
 - [x] 3.1 - JavaScript - Primeiros passos
 - [x] 3.2 - JavaScript - Array e Loop for
-- [] 3.3 - JavaScript - Lógica de programação e algoritmos
+- [x] 3.3 - JavaScript - Lógica de programação e algoritmos
 - [] 3.4 - JavaScript - Objetos e funções
 - [] 3.5 - JavaScript ES6 - let, const, arrow functions e template literals
 - [] 3.6 - Projeto - Playground functions
