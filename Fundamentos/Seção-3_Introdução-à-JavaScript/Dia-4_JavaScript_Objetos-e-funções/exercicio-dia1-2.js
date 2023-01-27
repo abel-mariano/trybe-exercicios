@@ -1,4 +1,4 @@
-🚀 Exercícios - funções
+/* 🚀 Exercícios - funções
 
 1- Crie uma função que ligue e desligue um motor de um carro
 
@@ -9,9 +9,26 @@
 - Retorne o valor do status atualizado
 - Bônus (opcional): tente fazer o mesmo exercício utilizando ternary operator.
 
-➡️Solução:
+O que será testado:
+- Se para o parâmetro 'ligado' a função muda para 'desligado', chama o console.log com o valor "O motor está desligado" e retorna como resultado a string 'desligado';
+- Se para o parâmetro 'desligado' a função muda para 'ligado', chama o console.log com o valor "O motor está ligado" e retorna como resultado a string 'ligado';
 
-2- Crie uma função que calcule a área de um círculo
+➡️Solução: */
+
+let ligarDesligar = (status) =>{
+  
+  if(status === 'desligado'){
+    status = 'ligado'
+    console.log('O motor está ligado')
+  } else{
+    status = 'desligado'
+    console.log('O motor está desligado')
+  }
+  return status;
+}
+console.log(ligarDesligar('ligado'))
+
+/* 2- Crie uma função que calcule a área de um círculo
 
 - Crie a função circleArea, que recebe o valor do raio como parâmetro, utilizando arrow functions;
 - Crie uma variável para armazenar o valor de PI com duas casas decimais (lembre-se de armazenar o tipo de variável da forma correta);
@@ -20,11 +37,13 @@
 - Retorne a mensagem 'O parâmetro radius deve ser um número' caso o parâmetro não seja do tipo número.
 - De olho na dica 👀: Na matemática, a fórmula para calcular a área de um círculo é: área = PI vezes o raio elevado ao quadrado.
 
-➡️Solução:
+➡️Solução: */
 
-3- Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase
+let circleArea
+
+/* 3- Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase
 
 - Implemente a função longestWord que retornará a maior palavra da frase recebida como parâmetro.
 De olho na dica 👀: Nesse exercício, será necessário utilizar os conhecimentos sobre array, método split e loop for/of.
 
-➡️Solução:
+➡️Solução: */
