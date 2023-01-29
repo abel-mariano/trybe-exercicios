@@ -16,7 +16,6 @@ O que será testado:
 ➡️Solução: */
 
 let ligarDesligar = (status) =>{
-  
   if(status === 'desligado'){
     status = 'ligado'
     console.log('O motor está ligado')
@@ -39,7 +38,15 @@ console.log(ligarDesligar('ligado'))
 
 ➡️Solução: */
 
-let circleArea
+const circleArea = (radius) => {
+  const PI = 3.14;
+  if(typeof radius !== 'number') {
+    return 'O parâmetro radius deve ser um número';
+  }
+
+  let area = PI * (radius ** 2);
+  return `Essa é a área do círculo: ${area}`;
+};
 
 /* 3- Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase
 
@@ -47,3 +54,17 @@ let circleArea
 De olho na dica 👀: Nesse exercício, será necessário utilizar os conhecimentos sobre array, método split e loop for/of.
 
 ➡️Solução: */
+
+const longestWord = (text) => {
+  const wordArray = text.split(' ');
+  let maxLength = 0;
+  let result = '';
+  for (const word of wordArray) {
+      if (word.length > maxLength) {
+          maxLength = word.length;
+          result = word;
+      }
+  }
+  return result;
+}
+console.log(longestWord('Antonio foi ao banheiro e não sabemos o que aconteceu'));
