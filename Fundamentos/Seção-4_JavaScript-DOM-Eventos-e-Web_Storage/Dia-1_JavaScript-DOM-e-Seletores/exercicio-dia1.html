@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <footer>
+      <p>Último parágrafo.</p>
+    </footer>
+    <script>
+       /* 1- Crie e execute uma função que mude o texto na tag <p>-----</p>, para uma descrição de como você se vê daqui a 2 anos.
+
+      ➡️Solução: */
+
+      function changeText() {
+        let tagP1 = document.querySelectorAll('p')[1];
+        tagP1.innerHTML = 'Estar formado e trabalhando em uma ótima empresa!!';
+      };
+      changeText();
+
+      /* ou arrow function
+
+      const changeText = () => {
+        let tagP1 = document.getElementsByTagName('p')[1];
+        tagP1.innerHTML = 'Estar formado e trabalhando em uma ótima empresa!!';
+      };
+      changeText(); */
+
+      /* 2- Crie e execute uma função que mude a cor do quadrado amarelo para rgb(76,164,109).
+
+      ➡️Solução: */
+
+      function changeSquareToGreen() {
+        let mainContent = document.querySelector('.main-content');
+        mainContent.style.backgroundColor = 'rgb(76, 164, 109)';
+      }
+      changeSquareToGreen();
+
+      /* ou arrow function
+
+      const changeSquareToGreen = () => {
+        let mainContent = document.querySelector('.main-content');
+        mainContent.style.backgroundColor = 'rgb(76, 164, 109)';
+      }
+      changeSquareToGreen(); */
+
+      /* 3- Crie e execute uma função que mude a cor do quadrado vermelho para branco.
+
+      ➡️Solução: */
+
+      function changeSquareToWhite() {
+        let centerContent = document.querySelector('.main-content .center-content');
+        centerContent.style.backgroundColor = 'white';
+      }
+      changeSquareToWhite();
+
+      /* ou arrow function
+
+      const changeSquareToWhite = () => {
+        let centerContent = document.querySelector('.main-content .center-content');
+        centerContent.style.backgroundColor = 'white';
+      }
+      changeSquareToWhite(); */
+
+      /* 4- Crie e execute uma função que corrija o texto da tag <h1>.
+
+      ➡️Solução: */
+
+      function correctTitle() {
+        let correctTitle2 = document.querySelector('h1');
+        correctTitle2.innerHTML = 'Desafio - Javascript';
+      }
+      correctTitle();
+
+      /* ou
+
+      const correctTitle = () => {
+        let correctTitle2 = document.querySelector('h1');
+        correctTitle2.innerHTML = 'Desafio - Javascript';
+      }
+      correctTitle(); */
+
+      /* 5- Crie e execute uma função que modifique o texto da primeira tag <p> para maiúsculo.
+
+      ➡️Solução: */
+
+      function paragraphUpperCase() {
+        let tagP0 = document.querySelectorAll('p')[0];
+        tagP0.style.textTransform = 'upperCase';
+      }
+      paragraphUpperCase();
+
+      /* ou
+
+      const paragraphUpperCase = () => {
+        let tagP0 = document.querySelectorAll('p')[0];
+        tagP0.style.textTransform = 'upperCase';
+      }
+      paragraphUpperCase(); */
+
+      /* 6- Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+
+      ➡️Solução: */
+
+      function showParagraphs() {
+        let allTagP = document.querySelectorAll('p');
+        for (let index = 0; index < allTagP.length; index += 1) {
+          console.log(allTagP[index].innerHTML);
+        }
+      }
+      showParagraphs();
+
+      /* ou
+
+      const showParagraphs = () => {
+        let allTagP = document.querySelectorAll('p');
+        for (let index = 0; index < allTagP.length; index += 1) {
+          console.log(allTagP[index].innerHTML);
+        }
+      }
+      showParagraphs(); */
+    </script>
+  </body>
+</html>
