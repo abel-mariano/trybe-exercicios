@@ -29,7 +29,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 4: [JavaScript: DOM, Eventos e Web Storage]
 - [x] 3.1 - JavaScript - DOM e Seletores
-- [] 3.2 - JavaScript - Trabalhando com elementos
+- [x] 3.2 - JavaScript - Trabalhando com elementos
 - [] 3.3 - JavaScript - Eventos
 - [] 3.4 - JavaScript - Web Storage
 - [] 3.5 - Projeto - Arte com Pixels
