@@ -31,6 +31,6 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 3.1 - JavaScript - DOM e Seletores
 - [x] 3.2 - JavaScript - Trabalhando com elementos
 - [x] 3.3 - JavaScript - Eventos
-- [] 3.4 - JavaScript - Web Storage
-- [] 3.5 - Projeto - Arte com Pixels
+- [x] 3.4 - JavaScript - Web Storage
+- [x] 3.5 - Projeto - Arte com Pixels
 - [] 3.6 - Projeto Bônus 
