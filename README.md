@@ -33,4 +33,12 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 3.3 - JavaScript - Eventos
 - [x] 3.4 - JavaScript - Web Storage
 - [x] 3.5 - Projeto - Arte com Pixels
-- [] 3.6 - Projeto Bônus 
+- [] 3.6 - Projeto Bônus
+
+##### Seção 5: [HTML & CSS: Forms, Flexbox e Responsivo]
+- [x] 5.1 - HTML & CSS - Forms
+- [] 5.2 - Bibliotecas JavaScript e Frameworks CSS
+- [] 5.3 - CSS Flexbox - Parte 1
+- [] 5.4 - CSS Flexbox - Parte 2
+- [] 5.5 - CSS Responsivo - Mobile First
+- [] 5.6 - Projeto Trybewarts
