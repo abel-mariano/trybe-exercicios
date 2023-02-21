@@ -24,7 +24,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 2.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 2.3 - HTML & CSS - Seletores e posicionamento
 - [x] 2.4 - HTML & CSS - Semântico
-- [x] 2.5 - Projeto Lessons learned
+- [x] 2.5 - Projeto - Lessons learned
 
 ##### Seção 3: [Introdução à JavaScript]
 - [x] 3.1 - JavaScript - Primeiros passos
