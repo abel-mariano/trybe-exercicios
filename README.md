@@ -44,8 +44,8 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 5: [HTML & CSS: Forms, Flexbox e Responsivo]
 - [x] 5.1 - HTML & CSS - Forms
-- [] 5.2 - Bibliotecas JavaScript e Frameworks CSS
-- [] 5.3 - CSS Flexbox - Parte 1
+- [x] 5.2 - Bibliotecas JavaScript e Frameworks CSS
+- [x] 5.3 - CSS Flexbox - Parte 1
 - [] 5.4 - CSS Flexbox - Parte 2
 - [] 5.5 - CSS Responsivo - Mobile First
 - [] 5.6 - Projeto Trybewarts
