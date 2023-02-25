@@ -35,17 +35,23 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 3.6 - Projeto - Playground functions
 
 ##### Seção 4: [JavaScript: DOM, Eventos e Web Storage]
-- [x] 3.1 - JavaScript - DOM e Seletores
-- [x] 3.2 - JavaScript - Trabalhando com elementos
-- [x] 3.3 - JavaScript - Eventos
-- [x] 3.4 - JavaScript - Web Storage
-- [x] 3.5 - Projeto - Arte com Pixels
-- [] 3.6 - Projeto Bônus
+- [x] 4.1 - JavaScript - DOM e Seletores
+- [x] 4.2 - JavaScript - Trabalhando com elementos
+- [x] 4.3 - JavaScript - Eventos
+- [x] 4.4 - JavaScript - Web Storage
+- [x] 4.5 - Projeto - Arte com Pixels
+- [] 4.6 - Projeto - Bônus
 
 ##### Seção 5: [HTML & CSS: Forms, Flexbox e Responsivo]
 - [x] 5.1 - HTML & CSS - Forms
 - [x] 5.2 - Bibliotecas JavaScript e Frameworks CSS
 - [x] 5.3 - CSS Flexbox - Parte 1
-- [] 5.4 - CSS Flexbox - Parte 2
-- [] 5.5 - CSS Responsivo - Mobile First
-- [] 5.6 - Projeto Trybewarts
+- [x] 5.4 - CSS Flexbox - Parte 2
+- [x] 5.5 - CSS Responsivo - Mobile First
+- [x] 5.6 - Projeto - Trybewarts
+
+##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários]
+- [] 6.1 - Fluxo de exceções e Manipulação de objetos
+- [] 6.2 - Primeiros passos em Jest
+- [] 6.3 - Matchers e cobertura de código
+- [] 6.4 - Projeto - JavaScript Testes Unitários
