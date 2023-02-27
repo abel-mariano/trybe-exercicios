@@ -51,7 +51,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 5.6 - Projeto - Trybewarts
 
 ##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários]
-- [] 6.1 - Fluxo de exceções e Manipulação de objetos
-- [] 6.2 - Primeiros passos em Jest
+- [x] 6.1 - Fluxo de exceções e Manipulação de objetos
+- [x] 6.2 - Primeiros passos em Jest
 - [] 6.3 - Matchers e cobertura de código
 - [] 6.4 - Projeto - JavaScript Testes Unitários
