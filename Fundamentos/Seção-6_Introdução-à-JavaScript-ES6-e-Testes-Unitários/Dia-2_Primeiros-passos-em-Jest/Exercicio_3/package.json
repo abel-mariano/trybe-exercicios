@@ -1,0 +1,15 @@
+{
+  "name": "exercicio_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "encodeDecode.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
