@@ -57,7 +57,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 6.4 - Projeto - JavaScript Testes Unitários
 
 ##### Seção 7: [Higher Order Functions do Javascript ES6]
-- [] 7.1 - Introdução a Higher Order Functions
+- [x] 7.1 - Introdução a Higher Order Functions
 - [] 7.2 - Higher Order Functions - sort e map
 - [] 7.3 - Higher Order Functions - filter e reduce
 - [] 7.4 - JavaScript ES6 - spread operator, rest parameters e object destructuring
