@@ -11,7 +11,9 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </h1>
 
-## Fundamentos do Desenvolvimento Web :heavy_check_mark:
+## Fundamentos do Desenvolvimento Web :construction: :hourglass_flowing_sand:
+
+<details>
 
 ##### Seção 1: [Unix, Shell e Git]
 - [x] 1.1 - Unix & Bash - Parte 1
@@ -63,3 +65,5 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 7.4 - JavaScript ES6 - spread operator, rest parameters e object destructuring
 - [] 7.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
 - [] 7.6 - Projeto - Zoo functions
+
+</details>
