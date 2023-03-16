@@ -11,7 +11,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </h1>
 
-## Fundamentos do Desenvolvimento Web :construction: :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 <details>
 
@@ -64,6 +64,15 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 7.3 - Higher Order Functions - filter e reduce
 - [x] 7.4 - JavaScript ES6 - spread operator, rest parameters e object destructuring
 - [x] 7.5 - JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
-- [] 7.6 - Projeto - Zoo functions
+- [x] 7.6 - Projeto - Zoo functions
 
 </details>
+
+## Módulo: Front-end :construction: :hourglass_flowing_sand:
+
+##### Seção 1: [Introdução ao Frontend e JavaScript assíncrono]
+- [] 1.1 - Ambiente de desenvolvimento
+- [] 1.2 - JavaScript Assíncrono - Promises e fetch
+- [] 1.3 - Prática - Casa de câmbio
+- [] 1.4 - Async, await e testes assíncronos
+- [] 1.5 - Projeto - Carrinho de compras
