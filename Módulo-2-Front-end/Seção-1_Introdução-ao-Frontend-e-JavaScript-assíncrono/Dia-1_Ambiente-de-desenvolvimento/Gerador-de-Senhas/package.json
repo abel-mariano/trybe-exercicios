@@ -1,0 +1,21 @@
+{
+  "name": "gerador-de-senhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.1",
+    "vite": "^4.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
