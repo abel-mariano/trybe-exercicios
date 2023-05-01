@@ -74,5 +74,10 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.1 - Ambiente de desenvolvimento
 - [x] 1.2 - JavaScript Assíncrono - Promises e fetch
 - [x] 1.3 - Prática - Casa de câmbio
-- [] 1.4 - Async, await e testes assíncronos
-- [] 1.5 - Projeto - Carrinho de compras
+- [x] 1.4 - Async, await e testes assíncronos
+- [x] 1.5 - Projeto - Carrinho de compras
+
+##### Seção 2: [Introdução ao React]
+- [x] 1.1 - 'Hello, world!' no React!
+- [] 1.2 - Componentes React
+- [] 1.3 - Projeto - Solar System
