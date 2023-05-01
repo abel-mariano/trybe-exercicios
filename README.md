@@ -78,6 +78,6 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.5 - Projeto - Carrinho de compras
 
 ##### Seção 2: [Introdução ao React]
-- [x] 1.1 - 'Hello, world!' no React!
+- [] 1.1 - 'Hello, world!' no React!
 - [] 1.2 - Componentes React
 - [] 1.3 - Projeto - Solar System
