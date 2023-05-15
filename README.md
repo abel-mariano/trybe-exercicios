@@ -82,5 +82,10 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 2: [Introdução ao React]
 - [x] 1.1 - 'Hello, world!' no React!
-- [] 1.2 - Componentes React
-- [] 1.3 - Projeto - Solar System
+- [x] 1.2 - Componentes React
+- [x] 1.3 - Projeto - Solar System
+
+##### Seção 3: [Componentes com Estado, Eventos e Formulários com React]
+- [] 1.1 - Componentes com estado e eventos
+- [] 1.2 - Formulários no React
+- [] 1.3 - Projeto - Tryunfo
