@@ -91,5 +91,10 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 3: [Componentes com Estado, Eventos e Formulários com React]
 - [x] 1.1 - Componentes com estado e eventos
-- [] 1.2 - Formulários no React
-- [] 1.3 - Projeto - Tryunfo
+- [x] 1.2 - Formulários no React
+- [x] 1.3 - Projeto - Tryunfo
+
+##### Seção 4: [Ciclo de Vida de Componentes e React Router]
+- [] 1.1 - Ciclo de vida de componentes
+- [] 1.2 - React Router
+- [] 1.3 - Projeto - TrybeTunes
