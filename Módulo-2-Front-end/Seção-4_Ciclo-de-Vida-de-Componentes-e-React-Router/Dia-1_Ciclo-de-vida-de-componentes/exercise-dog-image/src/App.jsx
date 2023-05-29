@@ -23,8 +23,8 @@ export default class App extends Component {
   componentDidUpdate() {
     const { imageUrl } = this.state;
     localStorage.setItem('imageUrl', imageUrl);
-    const dogBreed = imageUrl.split('/')[4];
-    alert(dogBreed);
+    /* const dogBreed = imageUrl.split('/')[4];
+    alert(dogBreed); */
   }
 
   fetchDog = async () => {
@@ -38,6 +38,7 @@ export default class App extends Component {
 
   render() {
     const { imageUrl, isLoading } = this.state;
+    const dogBreed = imageUrl.split('/')[4];
 
     if (isLoading) <h2>Loading...</h2>;
 
@@ -53,6 +54,7 @@ export default class App extends Component {
         <div>
           <img src={ imageUrl } alt="Doguinho aleatório" />
         </div>
+        { imageUrl && <h2>{ dogBreed }</h2>}
       </div>
     );
   }
