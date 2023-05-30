@@ -95,6 +95,16 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.3 - Projeto - Tryunfo
 
 ##### Seção 4: [Ciclo de Vida de Componentes e React Router]
-- [] 1.1 - Ciclo de vida de componentes
-- [] 1.2 - React Router
-- [] 1.3 - Projeto - TrybeTunes
+- [x] 1.1 - Ciclo de vida de componentes
+- [x] 1.2 - React Router
+- [x] 1.3 - Projeto - TrybeTunes
+
+##### Seção 5: [Metodologias Ágeis]
+- [x] 1.1 - Metodologias Ágeis
+- [x] 1.2 - Projeto - Front-end Online Store
+
+##### Seção 6: [Testes automatizados com React Testing Library]
+- [] 1.1 - Primeiros passos
+- [] 1.2 - RTL - Mocks e Inputs
+- [] 1.3 - RTL - Testando React Router
+- [] 1.4 - Projeto - Testes em React
