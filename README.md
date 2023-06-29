@@ -105,7 +105,15 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.2 - Projeto - Front-end Online Store
 
 ##### Seção 6: [Testes automatizados com React Testing Library]
-- [] 1.1 - Primeiros passos
-- [] 1.2 - RTL - Mocks e Inputs
-- [] 1.3 - RTL - Testando React Router
-- [] 1.4 - Projeto - Testes em React
+- [x] 1.1 - Primeiros passos
+- [x] 1.2 - RTL - Mocks e Inputs
+- [x] 1.3 - RTL - Testando React Router
+- [x] 1.4 - Projeto - Testes em React
+
+##### Seção 7: [Gerenciamento de estado com Redux]
+- [] 1.1 -  Introdução ao Redux - O estado global da aplicação
+- [] 1.2 - Usando o Redux no React
+- [] 1.3 - Usando o Redux no React - Prática
+- [] 1.4 - Usando o Redux no React - Actions Assíncronas
+- [] 1.5 - Testes em React-Redux
+- [] 1.6 - Projeto - Trybe Wallet
