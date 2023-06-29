@@ -1,134 +1,17 @@
-# Boas-vindas ao repositório do projeto Arte com Pixels!
-
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por Slack! #vqv :rocket:
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do [Código de Conduta e do Manual da Pessoa Estudante da Trybe](https://app.betrybe.com/manual-estudante/codigo-de-etica-e-conduta).
+# Boas-vindas ao repositório do projeto Arte com Pixels! 🎨
 
 # Entregáveis
 
 <details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
-
-<details>
   <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
-
 
 Neste projeto, você vai implementar um editor de arte com pixels em que a pessoa usuária poderá escolher uma cor em uma paleta de cores e poderá pintar o que quiser em um quadro branco 🎨 🧑‍🎨
 
-
-💡 Veja o exemplo a seguir de como o projeto pode se parecer depois de pronto. 
-
-![exemplo de arte com pixels](./art-with-pixels.gif)
-
 Você pode ~~e deve~~ ir além para deixar o projeto com a sua cara e impressionar todas as pessoas, mas não deixe de cumprir os requisitos! 
-
-
-</details>
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual;
-  * Serão `2` dias de projeto;
-  * Data para entrega do projeto: `14/02/2023 14:00`.
 
 </details>
 
 # Orientações
-
-<details>
-  <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
-
-1. Clone o repositório
-  * Use o comando: `git clone git@github.com:tryber/sd-030-a-project-pixels-art.git`
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-030-a-project-pixels-art`
-
-2. Instale as dependências
-  * `npm install`
-
-3. Crie uma branch a partir da branch `main`
-  * Verifique que você está na branch `main`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `main`
-    * Exemplo: `git checkout main`
-  * Agora crie uma branch à qual você vai submeter os `commits` de seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`
-    * Exemplo: `git checkout -b mariazinha-project-pixels-art`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listados os arquivos em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto pixels art'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin mariazinha-project-pixels-art`
-
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-030-a-project-pixels-art/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Coloque um título para a sua Pull Request
-    * Exemplo: "Cria tela de busca"
-  * Clique no botão verde "Create pull request"
-  * Adicione uma descrição para o _Pull Request_, e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-030-a-project-pixels-art/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary>
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
-  2. `git add` _(para adicionar arquivos ao stage do Git)_;
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_;
-  5. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_.
-
-</details>
-
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-030-a`.
-
-Caso tenha alguma dúvida, veja este [video explicativo](https://vimeo.com/362189205).
-  
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
-</details>
 
 <details>
   <summary><strong>🏗 Estrutura do projeto</strong></summary>
@@ -163,76 +46,6 @@ Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-eng
 - Se precisar consultar os valores do _CSS_ de um elemento a partir do _JavaScript_, [dê uma olhada aqui](https://www.w3schools.com/jsref/jsref_getcomputedstyle.asp);
 
 - Para alterar alguma propriedade do _CSS_ de um elemento por meio do _JavaScript_, dê uma olhada no [atributo `style`](https://www.w3schools.com/jsref/prop_style_backgroundcolor.asp) do elemento.
-- Caso a avaliação falhe com alguma mensagem de erro do tipo `[409:0326/130838.878602:FATAL:memory.cc(22)] Out of memory. size=4194304` é provável que as imagens que está utilizando são muito grandes. Tente redimensioná-las para um tamanho menor.
-</details>
-
-<details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `StyleLint`.
-Desta forma, o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! 
-  Para rodar o `ESLint` e o `StyleLint` localmente no projeto, execute os comandos abaixo:
-
-  1. Para avaliar se os arquivos com a extensão `CSS` estão com o padrão correto
-
-```bash
-npm run lint:styles
-```
-
-  2. Para avaliar se os arquivos com a extensão `JS` estão com o padrão correto
-
-```bash
-npm run lint
-```
-
-⚠️ **Atenção** O `ESLint` e o `StyleLint` não serão avaliados neste projeto. Você pode rodar os testes localmente e fazer as correções se desejar. ⚠️
-
-</details>
-
-<details>
-  <summary><strong>🛠 Testes e Cypress</strong></summary><br />
-
-O Cypress é uma ferramenta de teste de front-end desenvolvida para a web. Antes de utilizá-lo, certifique-se de ter executado o comando `npm install` dentro do projeto.
-
-Você pode rodar o Cypress localmente para verificar se seus requisitos estão passando, para isso execute um dos seguintes comandos:
-
-1. Para executar os testes apenas no terminal:
-
-```bash
-npm test
-```
-
-2. Para executar os testes e vê-los rodando em uma janela de navegador:
-
-```bash
-npm run cypress:open
-```
-
-***ou***
-
-```bash
-npx cypress open
-```
-
-Após executar um dos comandos acima, uma janela de navegador será aberta e, então, você poderá escolher o teste a ser executado (project.spec.js) ou escolher `Run all specs` para executar todos os testes
-
-Veja [este vídeo](https://vimeo.com/539240375/a116a166b9)  para ver como rodar o Cypress localmente 😉🎙
-
-* Siga este passo a passo para verificar os **detalhes da execução do avaliador**:
-
-  * Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
-
-  * Na página que se abrirá, clique na linha _**"Cypress evaluator step"**_ ;
-
-  * Analise os resultados a partir da mensagem _**"(Run Starting)"**_;
-
-  * Caso tenha dúvidas, consulte [este vídeo](https://vimeo.com/420861252) ou poste a sua dúvida no _Slack_.
-
-⚠️ **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
-
-* Contudo, tenha em mente que **nada além do que for pedido nos requisitos será avaliado**. _Esta é uma oportunidade de você exercitar sua criatividade e experimentar com os conhecimentos adquiridos._
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
 
 </details>
 
@@ -249,24 +62,6 @@ do projeto</strong></summary>
   * [MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
   * [StackOverflow](https://pt.stackoverflow.com/questions/tagged/javascript)
-
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. **Leva menos de 3 minutos!**
-
-Link: [Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-Você sabia que o **LinkedIn** é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso?
-
-Compartilhe esse projeto no seu **LinkedIn**, marque o perfil da Trybe (**@trybe**) e mostre para a sua rede toda a sua evolução.
 
 </details>
 
