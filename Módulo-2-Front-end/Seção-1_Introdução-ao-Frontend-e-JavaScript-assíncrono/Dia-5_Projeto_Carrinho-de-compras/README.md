@@ -1,21 +1,6 @@
 # Boas-vindas ao repositório do projeto Carrinho de Compras
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do [Código de Conduta e do Manual da Pessoa Estudante da Trybe](https://app.betrybe.com/learn/student-manual/codigo-de-conduta-da-pessoa-estudante).
-
 # Entregáveis
-
-<details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-  Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
-
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/876a615b-f578-4d65-a820-de9f3e5e57db/lesson/be8632bf-7bb7-4c01-a5d9-7aadac3a58f0) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
 
 <details>
   <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
@@ -32,233 +17,9 @@ Você já aprendeu sobre a importância de ter uma mentalidade orientada a teste
 
 Nesse projeto você vai ter a experiência de pôr em prática o desenvolvimento orientado a testes, o famoso TDD (Test Driven Development)! Que te ajuda a garantir um código de qualidade, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta! 🚀
 
-Ao finalizar o projeto, ele deve ter o comportamento parecido com o gif abaixo:
-
-![Project Gif](/images/prototipo.gif)
-
-</details>
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-
-# Data de entrega
-
-- Projeto individual;
-- Serão `4` dias de projeto;
-- Data de entrega para avaliação final do projeto: `04/04/2023 14:00`.
-
 </details>
 
 # Orientações
-
-<details>
-  <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
-
-1. Clone o repositório
-
-- `git clone git@github.com:tryber/sd-030-a-project-shopping-cart.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `cd sd-030-a-project-shopping-cart`
-
-2. Instale as dependências e inicialize o projeto
-
-- Instale as dependências:
-  - `npm install`
-
-3. Crie uma branch a partir da branch `main`
-
-- Verifique que você está na branch `main`
-  - Exemplo: `git branch`
-- Se não estiver, mude para a branch `main`
-  - Exemplo: `git checkout main`
-- Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-  - Você deve criar uma branch no seguinte formato: `nome-sobrenome-nome-do-projeto`
-  - Exemplo: `git checkout -b maria-silva-shopping-cart`
-
-4. Quando fizer mudanças, adicione-as ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_
-  - Exemplo: `git status` (deve aparecer as alterações realizadas em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (deve aparecer listado os arquivos em verde)
-- Faça o `commit` inicial
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin maria-silva-shopping-cart`
-
-6. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-030-a-project-shopping-cart/pulls)
-- Clique no botão verde _"New pull request"_
-- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  - Coloque um título para a sua _Pull Request_
-  - Exemplo: _"Cria tela de busca"_
-- Clique no botão verde _"Create pull request"_
-- Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
-- **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-030-a-project-shopping-cart/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-- Faça `commits` das alterações que você fizer no código regularmente;
-
-- Lembre-se de sempre atualizar o repositório remoto após um (ou alguns) `commits`;
-
-- Os comandos que você utilizará com mais frequência são:
-
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
-
-    2. `git add` _(para adicionar arquivos ao stage do Git)_;
-
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
-
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
-
-</details>
-
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque quem você deseja que realize o _code review_, por exemplo, as pessoas da sua tribo:
-
-- No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-- No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-- No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-030-a`.
-
-  Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/b3af2f05-08e5-4b4a-9667-6f5f729c351d/lesson/36268865-fc46-40c7-92bf-cbded9af9006) para te ajudar a revisar os _Pull Requests_.
-
-</details>
-
-<details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-### ESLint e Stylelint
-
-Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `Stylelint`.
-Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
-e de fácil manutenção!
-
-Para poder rodar o `ESLint` e o `Stylelint` certifique-se de ter executado o comando `npm install` dentro do projeto.
-
-Para rodá-los localmente no projeto, execute os comandos abaixo:
-
-```bash
-  npm run lint
-  npm run lint:styles
-```
-
-Se a análise do `ESLint` e do `Stylelint` encontrarem problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Você pode também instalar o plugin do `ESLint` no VSCode. Para isso, basta fazer o download do plugin `ESLint` e instalá-lo.
-
-Em caso de dúvidas, confira o material do course sobre [ESLint e Stylelint](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/3b1546b5-f7bc-40f7-a674-77b16c408756/lesson/0c9e8c0e-24c3-4526-ba6b-60d95913e022).
-
-⚠️ **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
-
-</details>
-
-<details>
-  <summary><strong>🛠 Testes</strong></summary><br />
-
-Nesse projeto você vai implementar o TDD (Test Driven Development) também conhecido como _desenvolvimento orientado a testes_, que é uma prática muito utilizada no mercado de trabalho para garantir que o código será implementado da maneira correta. Ou seja, primeiro você vai escrever o teste para uma função e depois vai implementar a lógica para que a função execute.
-
-Você vai ser responsável por implementar testes para as funções: `fetchProductsList` e `fetchProduct`.
-
-### Cobertura de testes
-
-Para avaliar se seus testes estão cobrindo toda a função, será utilizado a **cobertura de testes**, que avalia a eficácia dos testes implementados de acordo com os requisitos, determinando se cobrem o que foi pedido ou não.
-
-⚠️ **Será testado apenas as funções pedidas e não toda a aplicação!**
-
-Conforme você for realizando os testes do projeto, a porcentagem da cobertura total irá aumentar. Para a cobertura total será avaliado 25%, 50%, 75%, e, por fim, 100% dos testes. Para cada função solicitada a cobertura de testes irá avaliar a cobertura das linhas da sua função.
-
-Para executar seus testes, execute o comando abaixo:
-
-```bash
-npm test
-```
-
-Para executar e acompanhar a implementação da sua cobertura de testes, rode o comando abaixo:
-
-```bash
-npm run test:coverage
-```
-
-Ao realizar o comando de cobertura de testes terá um resultado similar a este:
-
-![Cobertura de Testes](/images/cobertura.png)
-
-Verifique com o comando `npm test` se todos os itens da cobertura dos testes estão passando corretamente.
-
-⚠️ **Atenção:** cuidado com eventuais falso-positivos!
-
-### Pontos importantes para a implementação dos testes
-
-Disponibilizamos a API simulada (mockada) para você implementar seus testes. Isso significa que será possível simular o consumo de todos os dados da API dentro do seu ambiente de testes, de forma segura e independente de fatores externos que possam ocorrer.
-
-- As funções `fetchProductsList` e `fetchProduct` devem ser implementadas por você;
-
-- Os retornos esperados das funções já estão importados nos arquivos de teste e vão estar especificados nos requisitos;
-
-- O `window.fetch` está definido em todos os testes, ou seja, será possível usar a função `fetch` dentro do seu ambiente de testes sem precisar importar ou instalar bibliotecas;
-
-- Para nosso ambiente de testes, o `fetch` está limitado a atender somente a configuração da API referente ao projeto;
-
-- Deseja checar se uma função foi chamada? Ou se foi chamada com um argumento específico? Que tal dar uma olhada nos matchers da [documentação](https://jestjs.io/pt-BR/docs/expect#tohavebeencalled).
-
-### Cypress
-
-Para avaliar o seu projeto como um todo, será utilizado o _Cypress_.
-
-Cypress é uma ferramenta de teste de front-end desenvolvida para a web.
-
-Antes de utilizá-lo, certifique-se de ter executado o comando `npm install` dentro do projeto.
-
-Você pode rodar o cypress localmente para verificar se seus requisitos estão passando, para isso execute um dos seguintes comandos:
-
-Para executar os testes e vê-los rodando em uma janela de navegador:
-
-```bash
-npm run cy:open
-```
-
-ou para executar os testes apenas no terminal:
-
-```bash
-npm run cy
-```
-
-Após executar o comando acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (project.spec.js).
-
-⚠️ **Atenção:** Para que o cypress funcione você precisa estar com a aplicação rodando localmente. Para isso, execute o comando `npm run dev` no terminal.
-
-Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) vídeo 😉🎙
-
-⚠️ **Atente-se para os nomes de classes que alguns elementos de seu projeto devem possuir**. O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
-</details>
 
 <details>
 <summary><strong>🏗 Estrutura do projeto</strong></summary><br />
@@ -289,8 +50,6 @@ A pasta `helpers` contém os arquivos `cartFunctions.js`, `fetchFunctions.js` e 
 A pasta `tests`, contém os arquivos `fetchProduct.test.js` e `fetchProductsList.test.js`, onde você vai implementar os testes para cada uma das funções de mesmo nome.
 
 ⚠️ É importante que você não modifique o nome desses arquivos! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, poste no _Slack_.
 
 </details>
 
@@ -574,16 +333,6 @@ O [manual da API do Mercado Livre](https://developers.mercadolivre.com.br/pt_br/
   </details>
 
   <details>
-    <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary> <br />
-
-  Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário.
-  **Leva menos de 3 minutos!**
-
-  [Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH30-A&template=betrybe/sd-0x-project-shopping-cart)
-
-  </details>
-
-  <details>
     <summary><strong>💻 Protótipo do projeto no Figma</strong></summary><br />
 
   Além da qualidade do código e do atendimento aos requisitos, um bom layout é um dos aspectos responsáveis por melhorar a usabilidade de uma aplicação e turbinar seu portfólio!
@@ -595,15 +344,6 @@ O [manual da API do Mercado Livre](https://developers.mercadolivre.com.br/pt_br/
   - [protótipo do Figma](https://www.figma.com/file/7Okk4tKMFcjNFoGX5rR677/%5BProjeto%5D%5BFrontend%5D-Carrinho-de-Compras?node-id=0%3A1)
 
   </details>
-
-  <details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-⚠️ **Atenção:** Você está livre para criar novas funções e arquivos e até mesmo modificar tudo que já está pronto (desde que não seja perdido nenhuma classe de nenhum elemento no processo). Apenas o arquivo `fetchFunctions.js` que **você não deve exportar novas funções!** Mas poderá criar novas funções que serão utilizadas ali mesmo.
 
 # Requisitos Obrigatórios
 
