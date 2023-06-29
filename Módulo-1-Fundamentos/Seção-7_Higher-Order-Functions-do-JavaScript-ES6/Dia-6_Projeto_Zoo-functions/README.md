@@ -1,23 +1,8 @@
-# Boas-vindas ao repositório do projeto Zoo Functions!
-	
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+# Boas-vindas ao repositório do projeto Zoo Functions! 🧑‍🌾
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-	
-# Termos e acordos
-	
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
+<br />
 	
 # Entregáveis
-	
-<details>
-	<summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
-	
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-	
-</details>
 	
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary><br />
@@ -30,242 +15,11 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
   Você já aprendeu sobre a importância de ter uma mentalidade orientada a testes, não é mesmo? E também já sabe como a implementação de testes contribui para a escrita de códigos mais confiáveis e com boa performance. 
   
-  A sequência dos requisitos desse projeto foi disposta de forma a te proporcionar a experiência de entender na prática como o desenvolvimento orientado a testes ajuda a garantir um código de qualidade. Para isso, você vai implementar testes para funções já existentes, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta! 🚀 
-
-<br />
+  A sequência dos requisitos desse projeto foi disposta de forma a te proporcionar a experiência de entender na prática como o desenvolvimento orientado a testes ajuda a garantir um código de qualidade. Para isso, você vai implementar testes para funções já existentes, percebendo os casos de uso da sua aplicação e garantindo que ela está funcionando da maneira correta! 🚀
 
 </details>
-	
-<details>
-<summary><strong>🗓 Data de Entrega</strong></summary><br />
-
-- Este projeto é individual
-	
-- São `4` dias de projeto
-	
-- Data para entrega do projeto: `21/03/2023 14:00`
-	
-	
-</details><br />
 	
 # Orientações
-	
-<details>
-<summary><strong>‼ Antes de começar a desenvolver</strong></summary><br />
-
-1. Clone o repositório
-
-	*  Use o comando: `git clone git@github.com:tryber/sd-030-a-project-zoo-functions.git`
-
-* Entre na pasta do repositório que você acabou de clonar:
-
-	*  `cd sd-030-a-project-zoo-functions`
-
-2. Instale as dependências
-
-	* Para isso, use o seguinte comando: `npm install`
-
-3. Crie uma branch a partir da branch `main`
-
-	* Verifique se você está na branch `main`
-	  * Exemplo: `git branch`
-	* Se não estiver, mude para a branch `main`
-	  * Exemplo: `git checkout main`
-	* Agora, crie uma branch para qual você vai submeter os `commits` do seu projeto:
-		* Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-		* Exemplo: `git checkout -b luiza-zoo-functions-project`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-	* Verifique que as mudanças ainda não estão no _stage_
-	  * Exemplo: `git status` (os arquivos no diretório `src` devem aparecer em vermelho)
-
-	* Adicione o novo arquivo ao _stage_ do Git
-	  * Exemplo: `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-	  *  `git status` (deve aparecer listado os arquivos do diretório `src` em verde)
-
-	* Faça o `commit` inicial
-	  * Exemplo: `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-	*  `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-	* Usando o exemplo anterior: `git push -u origin luiza-zoo-functions-project`
-
-6. Crie um novo `Pull Request`  _(PR)_
-	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-030-a-project-zoo-functions/pulls)
-	* Clique no botão verde _"New pull request"_
-	* Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-	* Coloque um título para o seu _Pull Request_
-    * Exemplo: _"Cria tela de busca"_
-	* Clique no botão verde _"Create pull request"_
-	* Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-	*  **Não se preocupe em preencher mais nada por enquanto!**
-	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-030-a-project-zoo-functions/pulls) e confira que o seu _Pull Request_ está criado.
-	
-</details>
-	
-<details>
-<summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-	
-* Faça `commits` das alterações que você fizer no código regularmente;
-	
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
-	
-* Os comandos que você utilizará com mais frequência são:
-	
-1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
-	
-2. `git add` _(para adicionar arquivos ao stage do Git)_;
-	
-3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-	
-4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
-	
-5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
-	
-</details>
-	
-<details>
-<summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-Para sinalizar que o seu projeto está pronto para o _'Code Review'_ dos seus colegas, faça o seguinte:
-	
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _'code-review'_ e marque seus colegas:
-	
-- No menu à direita, clique no _link_ **'Labels'** e escolha a _label_ **code-review**;
-	
-- No menu à direita, clique no _link_ **'Assignees'** e escolha **o seu usuário**;
-	
-- No menu à direita, clique no _link_ **'Reviewers'** e digite `students`, selecione o time `tryber/students-sd-030-a`.
-	
-Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
-	
-⚠️ **Lembre-se que garantir que todas as _issues_ comentadas pelo Linter estão resolvidas!** ⚠️
-	
-</details>
-	
-<details>
-<summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-	
-</details>
-	
-<details>
-<summary><strong>🎛 Linter</strong></summary><br />
-
-Usaremos o [ESLint](https://eslint.org/) para fazer a análise estática do seu código.
-
-Para garantir a qualidade do código, vamos utilizar neste projeto o `ESLint`. Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível e de fácil manutenção! 
-
-Para poder rodar o `ESLint` certifique-se de ter executado o comando `npm install` dentro do projeto.
-
-Para rodá-los localmente no projeto, execute os comandos abaixo:
-
-```bash
-npm run lint
-```
-
-Se a análise do `ESLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Você pode também instalar o plugin do `ESLint` no `VSCode`. Para isso, basta fazer o download do [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e instalá-lo.
-
-Em caso de dúvidas, confira o material na plataforma sobre [ESLint e Stylelint](https://app.betrybe.com/course/real-life-engineer/eslint).
-
-⚠️ **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
-	
-</details>
-
-<details>
-  <summary><strong>:busts_in_silhouette: Trello como ferramenta Kanban</strong></summary><br />
-
-  Uma forma de você organizar as atividades e dividir as tarefas é através de um modelo de Kanban. A Trybe disponibilizou no [Trello](https://trello.com/) um [board pré-configurado](https://trello.com/b/YpFJ5AY8/projeto-zoo-functions) para que você possa duplicá-lo e usar da melhor forma.
-
-  Siga os passos abaixo para duplicar o board:
-
-  - Acesse o [board](https://trello.com/b/YpFJ5AY8/projeto-zoo-functions);
-  - Abra o menu no canto superior direito;
-  - Selecione "Copiar Quadro";
-  - Defina um título para o board;
-  - Clique em `Criar`;
-  - Personalize seu novo Kanban.
-</details>
-
-<details>
-<summary><strong>🛠 Testes</strong></summary><br />
-
-Para que os testes sejam executados localmente, verifique se a versão do node na sua máquina é a `16`:
-
-```bash
-node -v
-```
-
-Caso a versão seja diferente, você pode utilizar o `nvm` para trocar de versão com o seguinte comando:
-
-```bash
-nvm use 16
-```
-
-Caso você não tenha o `nvm` instalado na sua máquina, você pode consultar o [conteúdo para instalação do nvm](https://app.betrybe.com/course/fundamentals/introducao-a-javascript-e-logica-de-programacao/javascript-primeiros-passos/33d74e1e-05b9-4ce8-86e3-623c96afe64d/conteudos/60b99b90-bcd4-4189-9198-3389f7f742f3/instalacao-do-node-para-linux/156d871d-97f2-4169-b766-85e4e56812ac?use_case=side_bar) 
-
-Todos os requisitos do projeto serão testados **automaticamente** por meio do `Jest`.
-	
-Para testar todas funções no terminal, basta executar o comando abaixo:
-	
-```bash
-npm test
-```
-
-Caso queira testar apenas uma função rode o comando abaixo:
-
-```bash
-npm test nome-do-arquivo
-```
-
-Por exemplo:
-
-```bash
-npm test getSpeciesByIds
-```
-
-## Cobertura de testes
-
-Nesse projeto você precisará implementar testes para duas funções já criadas: `handlerElephants` e `getOpeningHours`.
-
-Essa cobertura avalia a eficácia dos testes implementados de acordo com os requisitos, determinando se cobrem o que foi pedido ou não.
-
-**Observação:**
-- É importante destacar que a função `getOpeningHours` possui uma lógica específica para validar os horários 12am e 12pm. Portanto, para uma total cobertura, seus testes devem verificar também, como a função se comporta ao receber estes horários.
-
-⚠️ **Serão testadas apenas as duas funções pedidas e não toda a aplicação!**
-
-Conforme você for realizando os testes do projeto, a porcentagem da cobertura total irá aumentar. Para cada requisito de teste, será avaliada uma porcentagem de cobertura.
-
-Para executar e acompanhar a implementação da sua cobertura de testes, rode o comando abaixo:
-
-```bash
-npm run test:coverage
-```
-
-Ao executar o comando você vai ter um resultado similar a este:
-
-![Cobertura de Testes](img/cobertura.png)
-
-Neste projeto iremos focar na cobertura de *statements* (ou seja, as instruções em JavaScript). Será avaliada a porcentagem de cobertura das instruções das funções, conforme destacado na figura abaixo:
-
-![Cobertura de instruções](img/cobertura_stmts.png)
-
-Além disso, a tabela também vai mostrar quais linhas ainda não cobertas por testes. Ou seja, quando não existe caso de teste que execute aquela instrução.
-
-Verifique com `npm test` se todos os itens da cobertura dos testes estão passando corretamente.
-
-⚠️ **Atenção**: cuidado com eventuais falso-positivos!
-
-Ao rodar o comando de cobertura de teste, a pasta `coverage` será criada, com um arquivo `index.html`. Este arquivo apresenta um relatório da análise de cobertura. Neste relatório é possível visualizar quais linhas **não** estão sendo cobertas pelos testes.
-
-⚠️ **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
-
-</details>
 	
 <details>
 <summary><strong>🏗 Estrutura do projeto</strong></summary><br />
@@ -411,27 +165,10 @@ Não se esqueça de verificar o que cada parte do seu código retorna! Você pod
 ⚠️ **Atente-se para o retorno de cada parte do seu código**
 
 </details>
-	
-<details>
-<summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. **Leva menos de 3 minutos!**
-	
-[Formulário de avaliação do projeto](https://bit.ly/2OfLJPn)
-	
-</details>
-	
-<details>
-<summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-	
-</details><br />
 
 ---
 
 # Requisitos Obrigatórios
-
-⚠️ **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 
 ## 1. Implemente a função `getSpeciesByIds`.
 
