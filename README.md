@@ -111,8 +111,8 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.4 - Projeto - Testes em React
 
 ##### Seção 7: [Gerenciamento de estado com Redux]
-- [] 1.1 -  Introdução ao Redux - O estado global da aplicação
-- [] 1.2 - Usando o Redux no React
+- [x] 1.1 -  Introdução ao Redux - O estado global da aplicação
+- [x] 1.2 - Usando o Redux no React
 - [] 1.3 - Usando o Redux no React - Prática
 - [] 1.4 - Usando o Redux no React - Actions Assíncronas
 - [] 1.5 - Testes em React-Redux
