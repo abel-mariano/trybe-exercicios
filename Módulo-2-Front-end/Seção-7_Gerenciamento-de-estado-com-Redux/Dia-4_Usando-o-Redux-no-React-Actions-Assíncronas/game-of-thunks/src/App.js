@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { connect } from 'react-redux';
+import { thunkCharacter } from './redux/actions';
+import CharacterCard from './components/CharacterCard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+class App extends React.Component {
+  state = {
+    character: ''
+  }
+
+  render() {
+    const { character } = this.state;
+    const { dispatch } = this.props;
+    return (
+      <>
+        <input
+          type="text"
+          onChange={ ({ target }) => this.setState({ character: target.value }) }
+          value={ character }
+        />
+        <button
+          type="button"
+          onClick={ () => dispatch(thunkCharacter(character)) }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+          Search
+        </button>
+        <CharacterCard />
+      </>
+    );
+  }
 }
 
-export default App;
+export default connect()(App);
