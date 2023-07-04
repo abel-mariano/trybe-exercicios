@@ -122,7 +122,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.1 - Projeto - Jogo de Trivia
 
 ##### Seção 9: [Context API e React Hooks]
-- [] 1.1 - React Hooks - useState e useEffect
-- [] 1.2 - Context API
+- [x] 1.1 - React Hooks - useState e useEffect
+- [x] 1.2 - Context API
 - [] 1.3 - Custom Hooks
 - [] 1.4 - Projeto - StarWars Datatable com Context API e Hooks
