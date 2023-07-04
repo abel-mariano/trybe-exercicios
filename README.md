@@ -76,7 +76,9 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 </details>
 
-## Módulo: Front-end :construction: :hourglass_flowing_sand:
+## Módulo: Front-end :heavy_check_mark:
+
+<details>
 
 ##### Seção 1: [Introdução ao Frontend e JavaScript assíncrono]
 - [x] 1.1 - Ambiente de desenvolvimento
@@ -124,5 +126,18 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 ##### Seção 9: [Context API e React Hooks]
 - [x] 1.1 - React Hooks - useState e useEffect
 - [x] 1.2 - Context API
-- [] 1.3 - Custom Hooks
-- [] 1.4 - Projeto - StarWars Datatable com Context API e Hooks
+- [x] 1.3 - Custom Hooks
+- [x] 1.4 - Projeto - StarWars Datatable com Context API e Hooks
+
+##### Seção 10: [Projeto - App de Receitas]
+- [x] 1.1 - Projeto - App de Receitas
+
+</details>
+
+## Módulo: Back-end :construction: :hourglass_flowing_sand:
+
+##### Seção 1: [Docker: Utilizando Containers]
+- [x] 1.1 - Utilizando Containers - Docker
+- [] 1.2 - Manipulando Imagens no Docker
+- [] 1.3 - Orquestrando Containers com Docker Compose
+- [] 1.4 - Projeto - Docker Todo-List
