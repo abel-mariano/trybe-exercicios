@@ -139,6 +139,13 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 1: [Docker: Utilizando Containers]
 - [x] 1.1 - Utilizando Containers - Docker
-- [] 1.2 - Manipulando Imagens no Docker
-- [] 1.3 - Orquestrando Containers com Docker Compose
-- [] 1.4 - Projeto - Docker Todo-List
+- [x] 1.2 - Manipulando Imagens no Docker
+- [x] 1.3 - Orquestrando Containers com Docker Compose
+- [x] 1.4 - Projeto - Docker Todo-List
+
+##### Seção 2: [Introdução à SQL]
+- [] 1.1 - Banco de dados SQL
+- [] 1.2 - Encontrando dados em um banco de dados
+- [] 1.3 - Filtrando dados de forma específica
+- [] 1.4 - Manipulando tabelas
+- [] 1.5 - Projeto - All For One
