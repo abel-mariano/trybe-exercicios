@@ -18,6 +18,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 <img src="https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white" />
 <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
 <img src="https://img.shields.io/badge/docker-003f8c.svg?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-3e6e93?style=for-the-badge&logo=mysql&logoColor=white" />
 </h1>
 
 ## Fundamentos do Desenvolvimento Web :heavy_check_mark:
@@ -144,8 +145,14 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.4 - Projeto - Docker Todo-List
 
 ##### Seção 2: [Introdução à SQL]
-- [] 1.1 - Banco de dados SQL
-- [] 1.2 - Encontrando dados em um banco de dados
-- [] 1.3 - Filtrando dados de forma específica
-- [] 1.4 - Manipulando tabelas
-- [] 1.5 - Projeto - All For One
+- [x] 1.1 - Banco de dados SQL
+- [x] 1.2 - Encontrando dados em um banco de dados
+- [x] 1.3 - Filtrando dados de forma específica
+- [x] 1.4 - Manipulando tabelas
+- [x] 1.5 - Projeto - All For One
+
+##### Seção 3: [Funções SQL, JOINs e Normalização]
+- [] 1.1 - Funções mais usadas no SQL
+- [] 1.2 - Descomplicando JOINs
+- [] 1.3 - Transformando ideias em um modelo de banco de dados
+- [] 1.4 - Projeto - One For All
