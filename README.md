@@ -152,7 +152,15 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.5 - Projeto - All For One
 
 ##### Seção 3: [Funções SQL, JOINs e Normalização]
-- [] 1.1 - Funções mais usadas no SQL
-- [] 1.2 - Descomplicando JOINs
-- [] 1.3 - Transformando ideias em um modelo de banco de dados
-- [] 1.4 - Projeto - One For All
+- [x] 1.1 - Funções mais usadas no SQL
+- [x] 1.2 - Descomplicando JOINs
+- [x] 1.3 - Transformando ideias em um modelo de banco de dados
+- [x] 1.4 - Projeto - One For All
+
+##### Seção 4: [Introdução ao desenvolvimento Web com Node.js]
+- [] 1.1 - Node.js: Runtime Assíncrono
+- [] 1.2 - Node.js: API REST com Express
+- [] 1.3 - Node.js: Testes de Integração
+- [] 1.4 - Node.js: Express e Middlewares
+- [] 1.5 - Node.js: Express e MySQL
+- [] 1.6 - Projeto - Talker Manager
