@@ -19,6 +19,8 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
 <img src="https://img.shields.io/badge/docker-003f8c.svg?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-3e6e93?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+<img src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD" />
 </h1>
 
 ## Fundamentos do Desenvolvimento Web :heavy_check_mark:
@@ -158,8 +160,8 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.4 - Projeto - One For All
 
 ##### Seção 4: [Introdução ao desenvolvimento Web com Node.js]
-- [] 1.1 - Node.js: Runtime Assíncrono
-- [] 1.2 - Node.js: API REST com Express
+- [x] 1.1 - Node.js: Runtime Assíncrono
+- [x] 1.2 - Node.js: API REST com Express
 - [] 1.3 - Node.js: Testes de Integração
 - [] 1.4 - Node.js: Express e Middlewares
 - [] 1.5 - Node.js: Express e MySQL
