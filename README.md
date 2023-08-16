@@ -11,13 +11,13 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white" />
 <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" />
 <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
 <img src="https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white" />
 <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" />
 <img src="https://img.shields.io/badge/docker-003f8c.svg?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-3e6e93?style=for-the-badge&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
 <img src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD" />
@@ -162,7 +162,15 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 ##### Seção 4: [Introdução ao desenvolvimento Web com Node.js]
 - [x] 1.1 - Node.js: Runtime Assíncrono
 - [x] 1.2 - Node.js: API REST com Express
-- [] 1.3 - Node.js: Testes de Integração
-- [] 1.4 - Node.js: Express e Middlewares
-- [] 1.5 - Node.js: Express e MySQL
-- [] 1.6 - Projeto - Talker Manager
+- [x] 1.3 - Node.js: Testes de Integração
+- [x] 1.4 - Node.js: Express e Middlewares
+- [x] 1.5 - Node.js: Express e MySQL
+- [x] 1.6 - Projeto - Talker Manager
+
+##### Seção 5: [Arquitetura de Software: Model, Service e Controller]
+- [] 1.1 - Arquitetura de Software: Camada Model
+- [] 1.2 - Arquitetura de Software: Refatorando Camada Model
+- [] 1.3 - Arquitetura de Software: Camada Service
+- [] 1.4 - Arquitetura de Software: Refatorando Camada Service
+- [] 1.5 - Arquitetura de Software: Refatorando Camada Controller
+- [] 1.6 - Projeto - Store Manager
