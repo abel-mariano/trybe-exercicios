@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto Talker Manager
+# Boas-vindas ao repositório do projeto Talker Manager.
 
 ## Entregáveis
 
