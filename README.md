@@ -168,7 +168,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.6 - Projeto - Talker Manager
 
 ##### Seção 5: [Arquitetura de Software: Model, Service e Controller]
-- [] 1.1 - Arquitetura de Software: Camada Model
+- [x] 1.1 - Arquitetura de Software: Camada Model
 - [] 1.2 - Arquitetura de Software: Refatorando Camada Model
 - [] 1.3 - Arquitetura de Software: Camada Service
 - [] 1.4 - Arquitetura de Software: Refatorando Camada Service
