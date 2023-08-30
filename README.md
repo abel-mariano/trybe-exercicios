@@ -169,8 +169,15 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 5: [Arquitetura de Software: Model, Service e Controller]
 - [x] 1.1 - Arquitetura de Software: Camada Model
-- [] 1.2 - Arquitetura de Software: Refatorando Camada Model
-- [] 1.3 - Arquitetura de Software: Camada Service
-- [] 1.4 - Arquitetura de Software: Refatorando Camada Service
-- [] 1.5 - Arquitetura de Software: Refatorando Camada Controller
-- [] 1.6 - Projeto - Store Manager
+- [x] 1.2 - Arquitetura de Software: Refatorando Camada Model
+- [x] 1.3 - Arquitetura de Software: Camada Service
+- [x] 1.4 - Arquitetura de Software: Refatorando Camada Service
+- [x] 1.5 - Arquitetura de Software: Refatorando Camada Controller
+- [x] 1.6 - Projeto - Store Manager
+
+##### Seção 6: [Node.js: ORM e Autenticação]
+- [] 1.1 - ORM - Interface da aplicação com o banco de dados
+- [] 1.2 - ORM - Associations 1:1 e 1:N
+- [] 1.3 - ORM - Associations N:N e Transactions
+- [] 1.4 - JWT - (JSON Web Token)
+- [] 1.5 - Projeto - API de Blogs
