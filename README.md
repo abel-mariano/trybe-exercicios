@@ -176,7 +176,7 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 - [x] 1.6 - Projeto - Store Manager
 
 ##### Seção 6: [Node.js: ORM e Autenticação]
-- [] 1.1 - ORM - Interface da aplicação com o banco de dados
+- [x] 1.1 - ORM - Interface da aplicação com o banco de dados
 - [] 1.2 - ORM - Associations 1:1 e 1:N
 - [] 1.3 - ORM - Associations N:N e Transactions
 - [] 1.4 - JWT - (JSON Web Token)
