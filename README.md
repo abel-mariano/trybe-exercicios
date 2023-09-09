@@ -177,7 +177,18 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 ##### Seção 6: [Node.js: ORM e Autenticação]
 - [x] 1.1 - ORM - Interface da aplicação com o banco de dados
-- [] 1.2 - ORM - Associations 1:1 e 1:N
-- [] 1.3 - ORM - Associations N:N e Transactions
-- [] 1.4 - JWT - (JSON Web Token)
-- [] 1.5 - Projeto - API de Blogs
+- [x] 1.2 - ORM - Associations 1:1 e 1:N
+- [x] 1.3 - ORM - Associations N:N e Transactions
+- [x] 1.4 - JWT - (JSON Web Token)
+- [x] 1.5 - Projeto - API de Blogs
+
+##### Seção 7: [Masterclass: Implantação de Aplicações na Nuvem]
+- [x] 1.1 - Infraestrutura: Deploy com Railway
+
+
+##### Seção 8: [Introdução a TypeScript]
+- [] 1.1 - Aprendendo TypeScript
+- [] 1.2 - Introdução a Generics
+- [] 1.3 - API REST com Express, JWT, Sequelize e TypeScript
+- [] 1.4 - Testando Aplicações com TypeScript
+- [] 1.5 - Projeto - Trybesmith
