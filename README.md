@@ -189,8 +189,8 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 
 
 ##### Seção 8: [Introdução a TypeScript]
-- [] 1.1 - Aprendendo TypeScript
-- [] 1.2 - Introdução a Generics
+- [x] 1.1 - Aprendendo TypeScript
+- [x] 1.2 - Introdução a Generics
 - [] 1.3 - API REST com Express, JWT, Sequelize e TypeScript
 - [] 1.4 - Testando Aplicações com TypeScript
 - [] 1.5 - Projeto - Trybesmith
