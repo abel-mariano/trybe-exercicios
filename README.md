@@ -192,6 +192,14 @@ Contém todas as atividades desenvolvidas durante minha tragetória na [Trybe](h
 ##### Seção 8: [Introdução a TypeScript]
 - [x] 1.1 - Aprendendo TypeScript
 - [x] 1.2 - Introdução a Generics
-- [] 1.3 - API REST com Express, JWT, Sequelize e TypeScript
-- [] 1.4 - Testando Aplicações com TypeScript
-- [] 1.5 - Projeto - Trybesmith
+- [x] 1.3 - API REST com Express, JWT, Sequelize e TypeScript
+- [x] 1.4 - Testando Aplicações com TypeScript
+- [x] 1.5 - Projeto - Trybesmith
+
+##### Seção 9: [Programação Orientada a Objetos (POO) e SOLID]
+- [] 1.1 - Introdução à Orientação a Objetos
+- [] 1.2 - Herança e Composição
+- [] 1.3 - Polimorfismo
+- [] 1.4 - SOLID - Introdução e Princípios S, O e D
+- [] 1.5 - SOLID - Princípios L e I
+- [] 1.6 - Projeto - Trybers and Dragons
